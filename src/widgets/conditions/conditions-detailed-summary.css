@@ -1,0 +1,91 @@
+:global(.omrs-breakpoint-gt-phone) .conditionSummary {
+  display: flex;
+  flex-flow: wrap;
+}
+
+:global(.omrs-breakpoint-lt-tablet) .conditionSummary {
+  padding: 0.25rem 0.5rem 0 0.5rem;
+}
+
+.conditionMasterTable {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.conditionDetailTable {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.conditionMasterTable thead {
+  color: var(--omrs-color-ink-medium-contrast);
+  font-size: 1.063rem;
+}
+
+.conditionDetailTable thead {
+  color: var(--omrs-color-ink-medium-contrast);
+  font-size: 1.063rem;
+}
+
+.conditionMasterTable thead td {
+  margin-top: 0.625rem;
+}
+
+.conditionDetailTable thead td {
+  margin-top: 0.625rem;
+}
+
+.conditionDetailTable thead td:nth-child(1) {
+  width: 25%;
+}
+
+.conditionDetailTable thead td:nth-child(2) {
+  width: 25%;
+}
+
+.conditionDetailTable thead td:nth-child(3) {
+  width: 50%;
+}
+
+.conditionMasterTable thead td:nth-child(1) {
+  width: 15%;
+}
+
+.conditionMasterTable tbody {
+  font-size: 1.063rem;
+}
+
+.conditionMasterTable tbody td:nth-child(1) {
+  font-family: "Work Sans";
+}
+
+.conditionDetailTable thead td:nth-child(1) {
+  width: 15%;
+  margin-top: 0.625rem;
+}
+
+.conditionDetailTable tbody {
+  font-size: 1.063rem;
+}
+
+.conditionDetailTable tbody td:nth-child(1) {
+  font-family: "Work Sans";
+}
+
+.conditionMasterCard {
+  margin: 1rem 1.483rem;
+}
+
+.conditionName {
+  font-size: 1.688rem;
+  font-weight: 700;
+}
+
+.conditionDetailHeaders {
+  color: var(--omrs-color-ink-medium-contrast);
+  font-size: 1.063rem;
+}
+
+.conditionDetailCard {
+  margin: 1rem 1.483rem;
+}
